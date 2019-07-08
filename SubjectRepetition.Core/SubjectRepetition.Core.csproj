@@ -83,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aspects\CacheAspects\CacheAspect.cs" />
     <Compile Include="Aspects\ExceptionAspects\ExceptionLogAspect.cs" />
     <Compile Include="Aspects\LogAspects\LogAspect.cs" />
     <Compile Include="Aspects\PerformanceAspect\PerformanceCounterAspect.cs" />
